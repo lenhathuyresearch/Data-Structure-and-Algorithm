@@ -65,3 +65,54 @@ bin/
 .idea/
 .DS_Store
 *.swp
+
+## Visual Studio Temp Files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## MSBuild/Visual Studio output
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Roslyn cache directories
+*.browser
+*.vshost.exe*
+*.resource
+*.cache
+
+## Publish output
+*.publish.
+publish/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.cache
+*.opener
+
+## Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+## Environment secrets (Nếu bạn dùng Web API/ASP.NET)
+.env
+appsettings.Development.json
