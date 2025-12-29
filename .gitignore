@@ -30,3 +30,38 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+# --- Dependencies ---
+# Các gem được cài đặt bởi Bundler
+*.gem
+/.bundle/
+/vendor/bundle/
+/lib/bundler/man/
+
+# --- Logs và Temporary Files ---
+# Các tệp nhật ký và tệp tạm phát sinh khi chạy ứng dụng
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# --- Environment & Secrets ---
+# Cực kỳ quan trọng: Không đưa thông tin bảo mật lên Git
+.env
+.env*.local
+/config/master.key
+/config/credentials/*.key
+/config/database.yml
+
+# --- Testing ---
+# Các tệp báo cáo độ bao phủ code (Coverage)
+/coverage/
+/spec/reports/
+
+# --- IDEs & System Files ---
+# Các tệp cấu hình của trình soạn thảo và hệ điều hành
+.vscode/
+.idea/
+.DS_Store
+*.swp
