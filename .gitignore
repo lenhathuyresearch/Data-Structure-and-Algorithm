@@ -95,6 +95,7 @@ bld/
 *.vshost.exe*
 *.resource
 *.cache
+*.o
 
 ## Publish output
 *.publish.
